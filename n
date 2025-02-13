@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品販売サイト</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>美しい商品販売サイト</h1>
+        <nav>
+            <ul>
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">商品一覧</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="product">
+        <div class="product-image">
+            <img src="images/product.jpg" alt="商品画像">
+        </div>
+        <div class="product-info">
+            <h2>おしゃれな商品</h2>
+            <p class="price">¥5,000</p>
+            <p class="description">この商品は高品質で洗練されたデザインが特徴です。あなたの生活を豊かにします。</p>
+            <button class="buy-button">カートに追加</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 商品販売サイト. All rights reserved.</p>
+    </footer>
+</body>
+</html>
